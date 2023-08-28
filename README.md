@@ -94,9 +94,9 @@
 
 13. Something You Should Have to Know,
 
-    When declaring a for loop with the var keyword, its value gets hoisted, and when we use any async function or method inside there, we are going to get the hoisted value, and that value should be the same that because async value gets the value after the sync is completed means the for loop.
+    When declaring a for loop with the var keyword, its value gets hoisted, and when we use any asyncronous operations or method inside there, we are going to get the hoisted value, and that value should be the same that because async value gets the value after the sync is completed means the for loop.
     so after the loops complete, it takes the hoisted value; so if the loop runs 10 times, then the last value gets printed 10 times.
-    but on let, const the output should be different that because each time let or const gets created new, each time the loops complete its iteration. so if it runs 10 times then let or const created 10 times in memory that has its values, that is how the async method or function prints different values.
+    but on let, const the output should be different that because each time let or const gets created new, each time the loops complete its iteration. so if it runs 10 times then let or const created 10 times in memory that has its values, that is how the asyncronous operations or function prints different values.
 
     Same for function, each time when we call a function each time a new function scope is created with new variable values so it doesn't matter what calculation we do inside there the value reset to the default value and start again, so each time the function call new function scope is created and new variable and other things get created with their by default respective values and start again the calculation.
 
