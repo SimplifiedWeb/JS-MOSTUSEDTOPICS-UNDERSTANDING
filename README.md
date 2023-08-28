@@ -175,5 +175,26 @@
     
     round is for above 5 or above it should be greater if not then smaller.
 
+21. Date and time
+
+   so first understand this,
+   1. Hour => 3600 seconds and 60 minutes
+   2. 1 day => 86400 seconds and 1440 minutes
+   3. 1 minutes => 60000 miliseconds 60 seconds.
+   4. 1 second => 1000 miliseconds
+
+    Now, 1000 * 60 * 60 * 24 = 86400000 Number of seconds in a day.
+    basically 1000 is used for converting seconds into miliseconds. that bcz 1 seconds = 1000 miliseconds.
+
+    Now new Date(year, month, day) we know that, if someone gives us a program to find out how many days is left for upcoming christmas.
+    How we're gonna do that. 
+    - we have to first find how much time is remaining, from today to chritmas day. 
+    - we have to find out one day of time in miliseconds.
+    - we have to check does the christmas is over and set to the next year for dynamic changes.
+    - the we have to substract the value that we get from today to chritsmas day from current time and dividing it by milisecond of a day we get our answer.
+
+    It's not that difficult like you get the time remain for christmas is cmas = new Date(today.getFullYear(), 11, 25) like that. you can do with your own.
+
+
 So watever i epxlained you i get a hard time to understand that properly something i can't understand earlier something i can't remember that, so this explanation helps you and me.
 
