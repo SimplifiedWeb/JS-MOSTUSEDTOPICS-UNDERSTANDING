@@ -162,9 +162,13 @@
 
 20. And other things like Math function precision, toFixed, ceil, round, floor.
     simply Precision is simply how many digits we want like 23.3445 so I want 2 digits so it is 23. toPrecision(2)
+    
     toFixed how many digits we want to remove from the decimal point. like 23.2442 I want 2 digits it is 23.24 like that
+    
     ceil is for the greatest value 34.335 so it is 35.
+    
     floor is for the nearest value 343.533 so it is 342
+    
     round is for above 5 or above it should be greater if not then smaller.
 
 So watever i epxlained you i get a hard time to understand that properly something i can't understand earlier something i can't remember that, so this explanation helps you and me.
