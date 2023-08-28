@@ -139,7 +139,7 @@
     So the difference is htmlCollection can't use directly loop like forEach we have to make them first an array after that we can use them but nodeList can use directly ForEach, both can update dynamically when something changes like added or removed it should be updated automatically both the properties.
     nextElementSibling, childNodes they are just like who is next to me we use nextSibling, or childNodes we know that.
     classList, toggle we know that it's not that hard to understand this.
-    Yes that's it, we use this most of the times. like we use setAttribute in major cases we have to just define like setAttribute('id or class', "then class or id name") we use different attributes too. like src href, etc. for removeAttribute just pass the name what attribute you want to remove like which class or id you wanna remove like that, that you created by setAttribute.
+    Yes that's it, we use this most of the times. like we use setAttribute in major cases we have to just define like setAttribute('id or class', "then class or id name") we use different attributes too. like src href, etc. for removeAttribute just pass the name what attribute you want to remove like which class or id you wanna remove like that, you can remove any attribute you want just passed the attribute name of the target element.
 
 16. Set and Map methods
 
