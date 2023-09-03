@@ -183,7 +183,7 @@
    3. 1 minutes => 60000 miliseconds 60 seconds.
    4. 1 second => 1000 miliseconds
 
-    Now, 1000 * 60 * 60 * 24 = 86400000 Number of seconds in a day.
+    Now, 1000 * 60 * 60 * 24 = 86400000 Number of Miliseconds in a day.
     basically 1000 is used for converting seconds into miliseconds. that bcz 1 seconds = 1000 miliseconds.
 
     Now new Date(year, month, day) we know that, if someone gives us a program to find out how many days is left for upcoming christmas.
